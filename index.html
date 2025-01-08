@@ -4,30 +4,70 @@
     <title>My Page</title>
     <style>
         body{
-            background: rgb(225, 229, 233);
+            background: rgb(87, 118, 150);
             color : white;
             font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-        h1{
+
+        header{
             background: black;
-            color: red
+            padding: 20px;
+
         }
-        h2{
-            color: rgb(44, 100, 67);
+
+        section{
+            background: white;
+            color: grey;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
         }
-        button{
-            background: grey;
-            border: none;
-            color: white;
+
+        div{
+            background: red;
+            margin: auto;
+            width: 100px;
+           
         }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        footer{
+            background: black;
+            padding: 10px 20px;
+        }
+
     </style>
 </head>
 <body>
-    <h1>tony's page</h1>
-    <h2> Yo</h2>
-    <h3> Change </h3>
-    <p1> Hi  <strong>dkdaksf</p1>
-        <button>Im a button</button>
-    <li>List list</li>
+    <header>    
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Locations</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
+        <h1>Title</h1>
+    </header>
+    <section>
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
+    </section>
+    <section>lower-section</section>
+    <footer>footer</footer>
+
 </body>
 </html>
